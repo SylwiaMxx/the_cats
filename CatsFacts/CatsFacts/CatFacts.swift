@@ -9,15 +9,16 @@ import Foundation
 
 struct CatFacts {
     
-    var factNr: String
+    var factNr: Int
     var facts: String? = nil
     var isFavourite: Bool = false
 }
 
 extension CatFacts {
     static var testData = [
-        CatFacts(factNr: "Fact nr 1", facts: "Don't forget about taxi receipts"),
-        CatFacts(factNr: "Fact nr 2", facts: "Don't forget about taxi receipts", isFavourite: true)
+        CatFacts(factNr: 1, facts: "Don't forget about taxi receipts"),
+        CatFacts(factNr: 2, facts: "Don't forget about taxi receipts", isFavourite: true),
+        CatFacts(factNr: 3, facts: "Don't forget about taxi receipts", isFavourite: true)
     
     ]
 }

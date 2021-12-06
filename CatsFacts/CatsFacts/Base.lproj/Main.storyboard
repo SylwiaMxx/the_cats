@@ -46,6 +46,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MnC-JT-hIY">
                                 <rect key="frame" x="0.0" y="258" width="414" height="559"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CatFactsCell" rowHeight="104" id="f3X-vb-LPt" customClass="CatFactsCell" customModule="CatsFacts" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="104"/>
@@ -78,6 +79,8 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="tintColor" red="0.53310996290000001" green="0.50211489200000003" blue="0.38820940259999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="Dj8-qn-vBM" firstAttribute="leading" secondItem="wXq-6n-B5N" secondAttribute="leading" id="1RZ-7A-cG3"/>
                                                 <constraint firstItem="NdJ-P5-i94" firstAttribute="centerY" secondItem="R2p-dn-bTd" secondAttribute="centerY" id="8h0-gg-qZM"/>
@@ -90,6 +93,7 @@
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wXq-6n-B5N" secondAttribute="trailing" constant="20" symbolic="YES" id="wuG-Eu-vC6"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="factNrLabel" destination="wXq-6n-B5N" id="ae5-fO-83o"/>
                                             <outlet property="factsLabel" destination="Dj8-qn-vBM" id="vJ6-MA-Vwb"/>
