@@ -8,7 +8,12 @@
 import UIKit
 
 class CatFactsViewController: UIViewController {
+    
+}
 
-   
+extension UIViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+       return 4
+    }
 }
 
